@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "544724559941",
+    "project_id": "shramam-1234",
+    "storage_bucket": "shramam-1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544724559941:android:2bcc4ae384e0ec91c79b2c",
+        "android_client_info": {
+          "package_name": "com.shramam.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544724559941-7f47ttnc2psga6pmqbs51omtqs5neodf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shramam.user",
+            "certificate_hash": "7bc45d75445dd7fd60dcf4bc584544912bf7cafc"
+          }
+        },
+        {
+          "client_id": "544724559941-m63bbek3vqdtqil9klfoh8sfa2v4boii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbPNwXkGmIqiBHnwIKIkaK1ghX1ZmtLCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544724559941-m63bbek3vqdtqil9klfoh8sfa2v4boii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
