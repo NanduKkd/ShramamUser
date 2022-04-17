@@ -5,7 +5,9 @@ import AddPhone from '../screens/AddPhone'
 import EditProfile from '../screens/EditProfile'
 import Profile from '../screens/Profile'
 import Main from '../screens/Main'
+import BookedDay from '../screens/BookedDay'
 import { connect } from 'react-redux'
+import MainHeader from '../components/MainHeader';
 
 const StackCompomnent = createNativeStackNavigator()
 
@@ -22,7 +24,9 @@ function Stacks({phone, initializing}) {
 			{phone?(
 				<>
 					<StackCompomnent.Screen
-						options={{headerShown: false}}
+						options={{
+							header: MainHeader
+						}}
 						name='Main'
 						component={Main}
 					/>
@@ -35,6 +39,11 @@ function Stacks({phone, initializing}) {
 						options={{headerTitle: 'Profile'}}
 						name='Profile'
 						component={Profile}
+					/>
+					<StackCompomnent.Screen
+						options={{headerTitle: ''}}
+						name='BookedDay'
+						component={BookedDay}
 					/>
 				</>
 			):(
